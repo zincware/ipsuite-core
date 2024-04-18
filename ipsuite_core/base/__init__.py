@@ -2,6 +2,7 @@
 
 from .base import (
     AnalyseProcessAtoms,
+    AnalyseAtoms,
     CheckBase,
     Mapping,
     ProcessAtoms,
@@ -10,6 +11,7 @@ from .base import (
 from .selection import BatchConfigurationSelection, ConfigurationSelection
 
 __all__ = [
+    "AnalyseAtoms",
     "ProcessAtoms",
     "ProcessSingleAtom",
     "AnalyseProcessAtoms",
