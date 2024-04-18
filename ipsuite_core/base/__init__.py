@@ -1,8 +1,8 @@
 """IPSuite base classes for writing IPSuite and IPSuite-compatible nodes."""
 
 from .base import (
-    AnalyseProcessAtoms,
     AnalyseAtoms,
+    AnalyseProcessAtoms,
     CheckBase,
     Mapping,
     ProcessAtoms,
