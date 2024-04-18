@@ -6,6 +6,10 @@ authors = ["zincwarecode <zincwarecode@gmail.com>"]
 readme = "README.md"
 license = "Apache-2.0"
 
+[tool.poetry.urls]
+documentation = "https://ipsuite.readthedocs.io"
+repository = "https://github.com/zincware/ipsuite-core"
+
 [tool.poetry.dependencies]
 python = "^3.10"
 ZnTrack = "^0.7.2"
