@@ -1,6 +1,7 @@
 """IPSuite base classes for writing IPSuite and IPSuite-compatible nodes."""
 
 from .base import (
+    AnalyseAtoms,
     AnalyseProcessAtoms,
     CheckBase,
     Mapping,
@@ -10,6 +11,7 @@ from .base import (
 from .selection import BatchConfigurationSelection, ConfigurationSelection
 
 __all__ = [
+    "AnalyseAtoms",
     "ProcessAtoms",
     "ProcessSingleAtom",
     "AnalyseProcessAtoms",
